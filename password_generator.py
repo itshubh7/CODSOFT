@@ -6,10 +6,12 @@ length = int(input("Enter the length of the password: ")) # Taking the length of
 
 if complexity == 1:
     pswrd = string.ascii_letters # Only use letters as a password
-if complexity == 2:
+elif complexity == 2:
     pswrd = string.ascii_letters + string.digits # Use letters and digits to build the password
-if complexity == 3:
+elif complexity == 3:
     pswrd = string.ascii_letters + string.punctuation + string.digits # Combines letters, digits and special characters
+else:
+    print('Wrong Choice!')
     
 password = ''
 
