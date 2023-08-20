@@ -10,6 +10,7 @@ if complexity == 2:
     pswrd = string.ascii_letters + string.digits
 if complexity == 3:
     pswrd = string.ascii_letters + string.punctuation + string.digits
+    
 password = ''
 
 for i in range(length):
